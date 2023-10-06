@@ -13,23 +13,29 @@ html {
 .animalsonepage {
     background-image: url(/wp-content/themes/animaux/assets/img/animalsonepage.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 500px;
+    height: 60vh;
+    background-size: cover;
 }
 
 .animalsonepage h1 {
-    position: absolute;
-    top: 25%;
-    left: 50%;
+text-align: center;
+color: #ffffff; /* Couleur du texte */
+padding: 20px;
+border-radius: 10px; /* Coins arrondis pour le conteneur du texte */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+height: 50%
 }
 
 .footerpage {
     background-image: url(/wp-content/themes/animaux/assets/img/animalsorigami.jpg);
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 500px;
+    background-size: cover;
+    height: 80vh;
     background-position: center;
-    background-size: 80% auto;
+    background-size: 100% auto;
 }
 
 header li{
@@ -51,7 +57,10 @@ text-decoration: none;
 color: black
 }
 
-
+.imgLeft {
+    height: 300px;
+    width: 300px;
+}
 
 
 @import url('https://fonts.googleapis.com/css2?family=Gantari&family=Roboto:wght@100&display=swap');

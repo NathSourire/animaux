@@ -32,8 +32,7 @@
                         <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
                     </div>
                 </div>
-            </div>
-        </div>
+            </div> 
 
         <div class="row w-100">
             <div class="col-4 text-center listaccess">
@@ -56,7 +55,7 @@
                 </div>
             </div>
             <form class="col-4 text-center">
-                <div class="my-3">
+                <div class="my-2">
                     <label for="inputEmail1" class="form-label">Inscrivez-vous à notre newsletters</label>
                     <input type="email" class="" id="inputEmail1" aria-describedby="emailHelp" placeholder="Entrez votre email">
                 </div>
